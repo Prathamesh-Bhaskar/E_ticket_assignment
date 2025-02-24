@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'e-ticket-assignment.vercel.app'
+  baseURL: 'https://e-ticket-assignment.onrender.com'
 });
 
 // Automatically add admin header for protected train routes (POST, PUT, DELETE)
